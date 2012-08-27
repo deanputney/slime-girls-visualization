@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="colors.min.js"></script>
+  <script src="jquery.hotkeys.js"></script>
+  <script type="text/javascript" src="animations.js"></script>
+  <script type="text/javascript" src="hotkeys.js"></script>
+</head>
+<body>
+  <div id="admin">
+    <div id="controls">
+  	  <a href="javascript:void(0);" 
+  	    onclick="drawBars(document.getElementById('canvas1'), 10);">baars</a>
+  	  <br/>
+  
+  	  <a href="javascript:void(0);" 
+  	    onmousedown="drawBarsLoop = setInterval('drawBars(document.getElementById(\'canvas1\'), 10);', drawBarsLoopSpeed)"
+  	    onmouseup="clearInterval(drawBarsLoop);">baars loop</a>
+  	  <br/>
+  
+  	  <a href="javascript:void(0);" 
+  	    onmousedown="clearInterval(scrollBarsLoop);scrollBarsLoop = setInterval('scrollBars(document.getElementById(\'canvas1\'));', scrollBarsLoopSpeed)"
+  	    >scroll bars</a>
+  	  (<a href="javascript:void(0);" 
+  	    onmousedown="scrollBarsLoop = setInterval('scrollBars(document.getElementById(\'canvas1\'));', scrollBarsLoopSpeed)"
+  	    >add bars</a>)
+  	  <br/>
+  
+  	  <a href="javascript:void(0);" 
+  	    onmousedown="clearInterval(scrollBarsLoop);scrollBarsLoop = setInterval('scrollSlash(document.getElementById(\'canvas1\'), .90);', scrollBarsLoopSpeed)"
+  	    >scroll r-slash</a>
+  	  (<a href="javascript:void(0);" 
+  	    onmousedown="scrollBarsLoop = setInterval('scrollSlash(document.getElementById(\'canvas1\'), .90);', scrollBarsLoopSpeed)"
+  	    >add</a>)
+  	  <br/>
+  
+  	  <a href="javascript:void(0);" 
+  	    onmousedown="clearInterval(scrollBarsLoop);scrollBarsLoop = setInterval('scrollSlash(document.getElementById(\'canvas1\'), -.90);', scrollBarsLoopSpeed)"
+  	    >scroll l-slash</a>
+  	  (<a href="javascript:void(0);" 
+  	    onmousedown="scrollBarsLoop = setInterval('scrollSlash(document.getElementById(\'canvas1\'), -.90);', scrollBarsLoopSpeed)"
+  	    >add</a>)
+  	  <br/>
+    
+  	  <a href="javascript:void(0);" 
+  	    onclick="scrollBars(document.getElementById('canvas1'));">tick scroll bars</a>
+  	  <br/>
+  
+  	  <a href="javascript:void(0);" 
+  	    onmousedown="scrollBarsLoop = setInterval('scrollCircles(document.getElementById(\'canvas1\'));', scrollBarsLoopSpeed)"
+  	    >scroll circles</a>
+  	  <br/>
+  
+  	  <a href="javascript:void(0);" 
+  	    onclick="scrollCircles(document.getElementById('canvas1'));">tick scroll circles</a>
+  	  <br/>
+    
+  	  <a href="javascript:void(0);" 
+  	    onclick="addScrollColor();">add color</a>
+  	  <br/>
+
+  	  <a href="javascript:void(0);" 
+  	    onclick="for(x=0; x<20; x++){addScrollColor();}">add 20 random colors</a>
+  	  <br/>
+  
+  	  <a href="javascript:void(0);" 
+  	    onclick="addScrollColorSet(COLORSETS.RAINBOWBRITE);">add</a> | 
+  	  <a href="javascript:void(0);" 
+  	    onclick="scrollBarsColors = new Array();addScrollColorSet(COLORSETS.RAINBOWBRITE);">become rainbowbrite</a>
+  	  <br/>
+  
+  	  <a href="javascript:void(0);" 
+  	    onclick="addScrollColorSet(COLORSETS.UNRAINBOW);">add</a> | 
+  	  <a href="javascript:void(0);" 
+  	    onclick="scrollBarsColors = new Array();addScrollColorSet(COLORSETS.UNRAINBOW);">become unrainbow</a>
+  	  <br/>
+  
+  	  <a href="javascript:void(0);" 
+  	    onclick="addScrollColorSet(COLORSETS.GREYSCALE);">add</a> | 
+  	  <a href="javascript:void(0);" 
+  	    onclick="scrollBarsColors = new Array();addScrollColorSet(COLORSETS.GREYSCALE);">become greyscale</a>
+  	  <br/>
+  
+  	  <a href="javascript:void(0);" 
+  	    onclick="addScrollColorSet(COLORSETS.BLUE);">add</a> | 
+  	  <a href="javascript:void(0);" 
+  	    onclick="scrollBarsColors = new Array();addScrollColorSet(COLORSETS.BLUE);">become blue</a>
+  	  <br/>
+  
+  	  <a href="javascript:void(0);" 
+  	    onclick="addScrollColorSet(COLORSETS.LIGHTBLUE);">add</a> | 
+  	  <a href="javascript:void(0);" 
+  	    onclick="scrollBarsColors = new Array();addScrollColorSet(COLORSETS.LIGHTBLUE);">become lightblue</a>
+  	  <br/>
+  
+  	  <a href="javascript:void(0);" 
+  	    onclick="scrollBarsColors = new Array();">clear colors</a>
+  	  <br/>
+    </div>
+  </div>
+  
+  <div id="display">
+    <div id="dropzones">
+      <div id="drop1">SCROLL</div>
+    </div>
+    
+    <div id="beats">
+      <div class="beat square"></div>
+    </div>
+    <canvas id="canvas1" width="1500" height="1000"></canvas>
+    <canvas id="canvas2" width="1000" height="500" style="z-index:-10"></canvas>
+  </div>
+</body>
+</html>
