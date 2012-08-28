@@ -79,3 +79,5 @@ I planned bigger than I was able to implement, but this was a good thing. The cl
 Friends in the audience were very positive about the visuals. Some reported that other audience members were pointing and talking to each other about them. One girl apparently wanted to know what game was being played because it looked like fun. I've been invited back by the organizer to do visuals again.
 
 For a first outing with a quick project, I'm ecstatic.
+
+[Discuss this at Hacker News](http://news.ycombinator.com/item?id=4442299)
