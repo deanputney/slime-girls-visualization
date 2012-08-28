@@ -3,7 +3,7 @@
 $(document).bind('keydown', 'shift+/', function(){$('#controls').toggle()});
     
 /* clear colors */
-$(document).bind('keydown', 'space', function(){clearInterval(scrollBarsLoop);$('#canvas').hide();});
+$(document).bind('keydown', 'space', function(){if($('#canvas1').is(':visible')){clearInterval(scrollBarsLoop);$('#canvas1').hide();}else{$('#canvas1').show();}});
     
 /* colorsets */
 $(document).bind('keydown', 'a', function(){scrollBarsColors = new Array();addScrollColorSet(COLORSETS.RAINBOWBRITE);});

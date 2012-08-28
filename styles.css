@@ -6,6 +6,7 @@ body {
   background:#FF2479;
   padding:0;
   margin:0;
+  overflow:hidden;
 }
     
 a, a:visited, a:hover {

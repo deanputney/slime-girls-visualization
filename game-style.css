@@ -12,9 +12,9 @@ body {
 
 .container {
 	height: 100%;
-	width: 50%;
+	width: 70%;
 	position: absolute;
-	margin: 20px 25%; 
+	margin: 20px 15%; 
 	overflow: hidden;
 }
 
