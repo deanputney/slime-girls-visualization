@@ -11,7 +11,7 @@ Their style includes pixelation, bright saturated colors and pictures of women i
 
 ### Demos and more info
 
-- [Play a demo of the application here](https://dl.dropbox.com/u/994121/canvastest/slime-girls/index.html) Instructions on how to use this are below. The app is complex, you should read these first.
+- [Play a demo of the application here](https://dl.dropbox.com/u/994121/canvastest/slime-girls/index.html) **Instructions on how to use this are below. The app is complex, you should read these first.**
 - [DNA Lounge's recording of the performance](http://www.justin.tv/dnalounge/b/330096677) Performance begins at 1:15:00. Parts of the visuals are best viewed around 1:18:00, 1:22:30, 1:30:00, 1:40:00, 1:43:00 and 1:44:00 (the finale). DNA Lounge's stream is pretty low-resolution.
 - [slimegirls.bandcamp.com](http://slimegirls.bandcamp.com) Includes most of the songs played in the performance. Support these guys, they rock.
 
