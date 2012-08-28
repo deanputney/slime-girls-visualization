@@ -3,7 +3,7 @@ Slime Girls at DNA Lounge visuals in HTML/JS/CSS
 
 This repo contains an HTML application for creating visuals at live performances. This is my first attempt at creating visuals for a band. The code here is as it was used for Slime Girls's performance at DNA Lounge in San Francisco on August 26th, 2012. 
 
-This is mostly cobbled together from some HTML Canvas experiments I was working on and an HTML clone of Doodle Jump. The final version was made in about a day and a half.
+This is mostly cobbled together from some HTML Canvas experiments I was working on and an HTML clone of Doodle Jump. The final version was made in about a day and a half. *This is tested only in Chrome due to time restrictions.*
 
 Slime Girls describes themselves as:
 
@@ -66,3 +66,14 @@ Here's a suggested performance based on what I did using this software.
 - Scroll a babe. She will scroll very slowly because you should be really freaking out your computer by now.
 - Mess with color pallettes, try pulsing the band name or fullscreen beats. You probably won't be able to do much else.
 - Sit back and watch the mayhem.
+
+Result and Lessons
+========
+
+I'm pretty happy with how this went. I was very concerned that I didn't have enough material to fill a whole half hour set, but I received very good advice that I should take it slow and reveal things one by one. Pacing myself properly was much more important than I originally expected, and I had nearly built much more material than I needed.
+
+I planned bigger than I was able to implement, but this was a good thing. The close deadline (I got my assignment to Slime Girls Friday evening) forced completion and made me keep things simple. I much prefer this aesthetic to something overly complicated. I scrapped a plan to distribute the Hamburger Heaven game to the audience's phones, which was a good decision, but I look forward to experimenting with mobile in this environment soon.
+
+Friends in the audience were very positive about the visuals. Some reported that other audience members were pointing and talking to each other about them. One girl apparently wanted to know what game was being played because it looked like fun. I've been invited back by the organizer to do visuals again.
+
+For a first outing with a quick project, I'm ecstatic.
