@@ -17,7 +17,7 @@ Their style includes pixelation, bright saturated colors and pictures of women i
 
 ### Technical notes
 
-This is mostly cobbled together from some HTML Canvas experiments I was working on and an HTML clone of Doodle Jump. The final version was made in about a day and a half. Code is messy and hastily thrown together. *This is tested only in Chrome due to time restrictions.*
+This is mostly cobbled together from some HTML Canvas experiments I was working on and an [HTML clone of Doodle Jump](http://cssdeck.com/labs/html5-doodle-jump/8). The final version was made in about a day and a half. Code is messy and hastily thrown together. *This is written for and tested only in Chrome due to time restrictions.*
 
 Usage
 ========
