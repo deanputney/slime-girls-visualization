@@ -11,6 +11,7 @@ Their style includes pixelation, bright saturated colors and pictures of women i
 
 ### Demos and more info
 
+- [Play a demo of the application here](https://dl.dropbox.com/u/994121/canvastest/slime-girls/index.html)
 - [DNA Lounge's recording of the performance](http://www.justin.tv/dnalounge/b/330096677) Performance begins at 1:15:00. Parts of the visuals are best viewed around 1:18:00, 1:22:30, 1:30:00, 1:40:00, 1:43:00 and 1:44:00 (the finale). DNA Lounge's stream is pretty low-resolution.
 - [slimegirls.bandcamp.com](http://slimegirls.bandcamp.com) Includes most of the songs played in the performance.
 
@@ -26,7 +27,7 @@ The visuals are triggered entirely through key commands. These are laid out in o
 - Rumble band name
 - "Hamburger Heaven" doodle jump game based off of [this example](http://cssdeck.com/labs/html5-doodle-jump/8)
 
-Hoykeys are laid out in this manner:
+### Hotkeys
 
 - QWE: Full screen color beats. This just makes the whole screen flash a bright color. Shows on press, hides on release.
 - ASDFG: Select or switch color palettes for cycling. RAINBOWBRITE, GREYSCALE, LIGHTCYAN, LIGHTPINK, LIGHTGOLD respectively.
@@ -39,5 +40,27 @@ Hoykeys are laid out in this manner:
 - SHIFT+B: CRAZY rumble band name. Use sparingly, can't return to smaller rumble afterwards and doesn't play well with bigger effects.
 - UIOP: Activate scrolling patterns. CIRCLES, RIGHT SLASH (broken), LEFT SLASH, BARS respectively.
 - SHIFT+UIOP: Accelerate scrolling patterns. Allows multiple patterns to fight for position creating z-fighting effects. Can be sped up a lot to really freak out. This is the finale, requires a page refresh to undo at the moment but looks awesome.
+- SPACE: Stop and toggle scrolling patterns.
 - 0: Slow fade in or hide Hamburger Heaven game.
 - LEFT & RIGHT: Play Hamburger Heaven game.
+
+### Suggested usage
+
+Here's a suggested performance based on what I did using this software.
+
+- Start with just the band name and the fullscreen beats. Pulse band name and colors with song beats.
+- Add in the band name rumble to the beat.
+- Get those bikini babes scrolling. You can pulse them along with the beat as well, and pulse colors and band name with them too.
+- Bring in scrolling bar colors. Don't reveal circles or slashes yet. Use these in conjunction with the previous elements and visualize beats with them. 
+- Reveal scrolling color palettese slowly. Hold color palette keys to stop scrolling. Press palette keys to start pattern over again. Good for beat visualization.
+- Bring in RAINBOWBRITE.
+- Fade in Hamburger Heaven when appropriate. Use scrolling patterns, fullscreen beats and band name to keep the beat. Play the game yourself, or if possible have the audience come play.
+- Close out Hamburger Heaven.
+- Scroll babes, reveal circles and slashes patterns. Pulse band name.
+- Speed up circles and slashes. Initiate z-fighting.
+- Bring back Hamburger Heaven if you want.
+- Speed up patterns more. Get things nearly freaking out.
+- Finish by adding color palettes to scrolling colors. Speed things up as much as possible.
+- Scroll a babe. She will scroll very slowly because you should be really freaking out your computer by now.
+- Mess with color pallettes, try pulsing the band name or fullscreen beats. You probably won't be able to do much else.
+- Sit back and watch the mayhem.
