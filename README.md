@@ -3,8 +3,6 @@ Slime Girls at DNA Lounge visuals in HTML/JS/CSS
 
 This repo contains an HTML application for creating visuals at live performances. This is my first attempt at creating visuals for a band. The code here is as it was used for Slime Girls's performance at DNA Lounge in San Francisco on August 26th, 2012. 
 
-This is mostly cobbled together from some HTML Canvas experiments I was working on and an HTML clone of Doodle Jump. The final version was made in about a day and a half. *This is tested only in Chrome due to time restrictions.*
-
 Slime Girls describes themselves as:
 
 > The soundtrack to every time you've dreamed about the far reaches of space, the waves washing over a neon beach or giant mechs battling for your planet. Alternatively: just some sorta chiptune anime punk bullshit.
@@ -16,6 +14,10 @@ Their style includes pixelation, bright saturated colors and pictures of women i
 - [Play a demo of the application here](https://dl.dropbox.com/u/994121/canvastest/slime-girls/index.html)
 - [DNA Lounge's recording of the performance](http://www.justin.tv/dnalounge/b/330096677) Performance begins at 1:15:00. Parts of the visuals are best viewed around 1:18:00, 1:22:30, 1:30:00, 1:40:00, 1:43:00 and 1:44:00 (the finale). DNA Lounge's stream is pretty low-resolution.
 - [slimegirls.bandcamp.com](http://slimegirls.bandcamp.com) Includes most of the songs played in the performance. Support these guys, they rock.
+
+### Technical notes
+
+This is mostly cobbled together from some HTML Canvas experiments I was working on and an HTML clone of Doodle Jump. The final version was made in about a day and a half. Code is messy and hastily thrown together. *This is tested only in Chrome due to time restrictions.*
 
 Usage
 ========
